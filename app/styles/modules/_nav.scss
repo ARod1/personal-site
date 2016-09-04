@@ -1,0 +1,40 @@
+/* NAV STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header-top {
+  background: rgba(0, 0, 0, 0);
+  height: 70px;
+  padding: 0 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 300;
+  box-sizing: border-box;
+}
+
+h1 a {
+  display: block;
+  padding: 0 10px;
+}
+
+.btn {
+  display: inline-block;
+  background: rgba(0,0,0,0.0);
+  border: 1px solid white;
+  line-height: 2.5em;
+  padding: 2px 25px;
+
+  
+  &:hover {
+    color: black;
+    border: 1px solid black;
+  }
+}
+
+
+.topBtn {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+}
+

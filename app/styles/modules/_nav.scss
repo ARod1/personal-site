@@ -23,12 +23,18 @@ h1 a {
   border: 1px solid white;
   line-height: 2.5em;
   padding: 2px 25px;
-
+  transition-duration: 1s;
   
   &:hover {
     color: black;
+    background: white;
     border: 1px solid black;
   }
+
+  &:active {
+    color: red;
+  }
+
 }
 
 

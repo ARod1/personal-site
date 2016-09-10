@@ -1,0 +1,46 @@
+
+/* MY INFO OVERLAY
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+.contactOverlay {
+  display: flex;
+  height: 0;
+  opacity: 0;
+  box-sizing: border-box;
+  background: black;
+  position: fixed;
+  width: 100%;
+  -webkit-transition: all 3s;
+          transition: all 3s;
+
+  .copyright {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+  }
+
+}
+
+.openOverlay {
+  opacity: 1;
+  padding: 0;
+  z-index: 200;
+  height: 100%;
+}
+
+
+.contactPage {
+  padding: 100px;
+  margin: auto;
+  
+  i {
+    padding: 0 20px;
+    font-size: 24px;
+  }
+
+
+}
+
